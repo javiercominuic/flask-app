@@ -12,7 +12,7 @@ def about():
 
 @app.route('/contact')
 def contact():
-    return 'Contáctanos en javier.comin@hotmail.com'
+    return 'Concatatnos'
 
 @app.route('/hobbies')
 def hobbies():
