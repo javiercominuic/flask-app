@@ -18,6 +18,5 @@ def contact():
 def hobbies():
     return 'Mis hobbies son programar y leer'
 
-
 if __name__ == '__main__':
     app.run(debug=True)
