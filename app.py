@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return '¡Bienvenidos a mi aplicación Flask!'
+    return '¡Bienvenidos amigos!'
 
 @app.route('/about')
 def about():
@@ -12,11 +12,15 @@ def about():
 
 @app.route('/contact')
 def contact():
-    return 'Contáctanos en flask@example.com'
+    return 'Contáctanos en javier.comin@hotmail.com'
 
 @app.route('/hobbies')
 def hobbies():
     return 'Mis hobbies son programar y leer'
+
+@app.route('/audit')
+def hobbies():
+    return 'Auditoria anual'
 
 if __name__ == '__main__':
     app.run(debug=True)
